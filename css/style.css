@@ -199,12 +199,17 @@ main {
     margin-top: 100px;
   }
 
+  .subscription {
+    border-radius: 0;
+  }
+
   .subscription a {
   width: 28.4375rem;
 }
 
 .why-us {
   height: 12.5rem;
+  border-radius: 0 0 0.625rem 0.625rem;
 }
 
 .why-us p {

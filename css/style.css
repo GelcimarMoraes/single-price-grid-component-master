@@ -61,7 +61,7 @@ main {
 		"contents contents"
 		"subscription why-us"
 		;
-  
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .contents {
@@ -96,6 +96,7 @@ main {
   background-color: rgb(43, 179, 177);
   grid-area: subscription;
   height: 16.25rem;
+  border-radius: 0 0 0 0.625rem;
 }
 
 .subscription h2 {
@@ -157,6 +158,7 @@ main {
   background-color: rgb(74, 190, 189);
   grid-area: why-us;
   height: 16.25rem;
+  border-radius: 0 0 0.625rem 0;
 }
 
 .why-us h2 {
@@ -194,31 +196,28 @@ main {
 		"subscription"
     "why-us"
 		;
-    
-  }
-
-  .contents {
-    margin-top: 1.25rem;
+    margin-top: 100px;
   }
 
   .subscription a {
   width: 28.4375rem;
 }
 
+.why-us {
+  height: 12.5rem;
+}
+
 .why-us p {
   width: 25rem;
 }
 
-.why-us {
-  height: 12.5rem;
-}
   }
 
   @media (max-width: 530px) {
 
-    .contents {
-    margin-top: 3.125rem;
-  }
+    main {
+      margin-top: 100px;
+    }
     
     .contents {
       width: 20rem;
@@ -226,6 +225,7 @@ main {
 
     .subscription {
     width: 20rem;
+    border-radius: 0;
   }
 
   .subscription a {
@@ -234,6 +234,7 @@ main {
 
 .why-us {
   width: 20rem;
+  border-radius: 0 0 0.625rem 0.625rem;
 }
 
 .why-us p {
